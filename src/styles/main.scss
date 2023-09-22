@@ -1,6 +1,7 @@
 @use 'reset';
 @use 'variaveis';
 @use 'hero';
+@use 'shows';
 
 @font-face {
     font-family: Avenir;
@@ -27,7 +28,6 @@
 
 body {
     background-color: variaveis.$corFundo;
-    font-family: Avenir, sans-serif;
 }
 
 .text--big {
