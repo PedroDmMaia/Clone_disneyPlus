@@ -1,3 +1,5 @@
+@use 'variaveis';
+
 .faq {
     padding: 5.6vw;
 
@@ -50,7 +52,7 @@
                     transition: height, .5s ease;
 
                     span {
-                        color: #f9f9f9;
+                        color: variaveis.$corTextoSecundario;
                         text-decoration: underline;
                     }
                 }
