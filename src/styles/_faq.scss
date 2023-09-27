@@ -22,6 +22,10 @@
                 display: block;
                 cursor: pointer;
 
+                @media (max-width: 768px) {
+                    font-size: 15px;
+                }
+
                 &::after {
                     content: '+';
                     position: absolute;
